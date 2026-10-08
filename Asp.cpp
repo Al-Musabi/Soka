@@ -12,15 +12,6 @@ struct stUser
 enum enRad{sound = 0 ,raid =3};
 int main()
 { 
-	cout << "Enter username: ";
-	string user;
-	cin >> user;
-	cout << "Enter password: ";
-	string pass;
-	cin >> pass;
-	stUser user1(user, pass);
-	cout << "Username: " << user1.username << endl;
-	cout << "Password: " << user1.password << endl;
 	return 0;
 	
 }
