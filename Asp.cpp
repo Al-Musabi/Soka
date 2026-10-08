@@ -9,6 +9,7 @@ struct stUser
 		: username(user), password(pass) {}
 };
 
+enum enRad{sound = 0 ,raid =3};
 int main()
 { 
 	cout << "Enter username: ";
