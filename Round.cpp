@@ -11,6 +11,15 @@ struct Round
 		: roundNumber(round), player1Score(p1Score), player2Score(p2Score) {}
 };
 
+strct stUser{
+	int id;
+	string name;
+	string email;
+	stUser(int userId, string userName, string userEmail)
+		: id(userId), name(userName), email(userEmail) {
+	}
+}
+
 int main()
 {
 	Round round1(1, 10, 20);
